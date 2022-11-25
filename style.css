@@ -1,0 +1,54 @@
+body{
+    padding: 10px;margin: 0;background-color: rgb(248, 248, 248);
+    font-family: sans-serif;
+}
+.index-post{
+    width: 900px; margin: auto;
+    display: block; margin-top: 10%;
+}
+.contener{
+    float: left; margin: 20px;
+    display: flex; align-items: center; flex-direction: column;
+    width: 240px; height:320px;overflow: hidden;background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 3px 0 #6b6a6a73; transition: all 0.3s;
+}
+.contener:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 11px 14px rgb(0 0 0 / 25%), 0 8px 20px rgba(255, 255, 255, 0.1)
+}
+
+.image-contener{
+    display: 150px; overflow: hidden;
+    
+}
+.image-contener{
+    width: 100%;
+}
+.meta-contener{
+    display: flex; align-items: center;
+    flex-direction: column;height: 200px;
+    padding: 10px 20px;
+}
+.meta-contener .title {
+    padding: 0; margin: 10px 0; size: 1px; color: rgb(179, 241, 8);
+
+}
+.meta-contener .desc{
+    font-size: 10px; text-align: center;color: rgb(7, 7, 7);
+}
+.button-contener{
+    display: flex;align-items:center; width: 80%; text-align:center;
+    height: 120px;
+}
+.button-contener .button{
+width: 100%; padding: 6px 0; text-decoration: none;
+background-color: gold;
+color: rgb(241, 12, 12);
+border-radius: 5px; font-size: 14px; transition: all 0.3s;
+
+}
+.button-contener .button:hover{
+padding-left: 15px;
+}
+
